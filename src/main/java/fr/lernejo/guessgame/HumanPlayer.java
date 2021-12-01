@@ -1,7 +1,7 @@
-package main.java.fr.lernejo.guessgame;
+package fr.lernejo.guessgame;
 
-import main.java.fr.lernejo.logger.Logger;
-import main.java.fr.lernejo.logger.LoggerFactory;
+import fr.lernejo.logger.Logger;
+import fr.lernejo.logger.LoggerFactory;
 
 import java.util.Scanner;
 

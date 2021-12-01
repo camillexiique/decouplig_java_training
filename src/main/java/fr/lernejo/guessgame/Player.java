@@ -1,4 +1,4 @@
-package main.java.fr.lernejo.guessgame;
+package fr.lernejo.guessgame;
 
 public interface Player {
     long askNextGuess();
