@@ -1,9 +1,14 @@
 package main.java.fr.lernejo.logger;
 
-public class LoggerFactory {
+public class LoggerFactory implements Logger{
 
     public static Logger getLogger(String name){
 
-        return new Logger;
+        return new ConsoleLogger();
+    }
+
+    @Override
+    public void log(String message) {
+        System.out.println(message);
     }
 }
